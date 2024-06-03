@@ -1,0 +1,57 @@
+/*
+File: style.css
+GUI Assignment: Multiplication Table
+Adam El-Telbani, UMass Lowell Computer Science, Adam_ElTelbani@student.uml.edu
+Copyright (c) 2024 by Adam. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by Adam on June 2nd, 2024 at 8:20PM
+*/
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.table-container {
+    margin-top: 20px;
+}
+
+.small-fieldset {
+    width: 15%;
+    margin: auto;
+    float: left;
+}
+
+.form-group {
+    padding: 4px;
+}
+
+.w-auto {
+    font-style: italic;
+    font-weight: bold;
+}
+
+table {
+    padding: 10px;
+}
+
+.header-cell {
+    background-color: black;
+    color: white;
+}
+
+.top-left-cell {
+    border: none;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 100px;
+}
+
+td {
+    padding: 0.3rem;
+    border: 1px solid;
+    padding-left: 10px;
+}
